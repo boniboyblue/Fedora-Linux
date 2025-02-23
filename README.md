@@ -114,5 +114,5 @@ gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark' && gsettings
 
 ### Use themes in Flatpaks
 ```
-sudo flatpak override --filesystem=$HOME/.themes && sudo flatpak override --env=GTK_THEME=my-theme
+sudo flatpak override --filesystem=$HOME/.themes && sudo flatpak override --env=GTK_THEME=adw-gtk3-dark
 ```
