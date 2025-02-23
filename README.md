@@ -68,7 +68,7 @@ sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1
 After this enable the OpenH264 Plugin in Firefox's settings.
 
 ## EasyEffects
-To be filled.
+See [EasyEffects](EasyEffects) for Impulse file to import into convolver.
 
 ## Set Hostname
 ```
