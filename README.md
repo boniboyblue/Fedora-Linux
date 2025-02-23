@@ -96,7 +96,10 @@ To be filled
 ## Theming
 
 ### GTK Themes Dark Mode Theme
-To be filled
+```
+sudo dnf install adw-gtk3-theme
+gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark' && gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+```
 
 ### Use themes in Flatpaks
 ```
