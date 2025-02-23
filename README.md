@@ -91,7 +91,18 @@ sudo rm /etc/xdg/autostart/org.gnome.Software.desktop
 ```
 
 ## Gnome Extensions
-To be filled
+Caffine
+```
+sudo dnf install gnome-shell-extension-caffeine
+```
+Alphabetical App Grid
+```
+gdbus call --session \
+           --dest org.gnome.Shell.Extensions \
+           --object-path /org/gnome/Shell/Extensions \
+           --method org.gnome.Shell.Extensions.InstallRemoteExtension \
+           "AlphabeticalAppGrid@stuarthayhurst"
+```
 
 ## Theming
 
